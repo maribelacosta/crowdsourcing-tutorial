@@ -1,0 +1,12 @@
+best_image
+com.amazon.mechanicalturk.common.domain
+com.amazonaws.mturk.addon
+com.amazonaws.mturk.filter
+com.amazonaws.mturk.service.axis
+com.amazonaws.mturk.service.exception
+com.amazonaws.mturk.util
+filter
+helloworld
+reviewer
+simple_survey
+site_category

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>MTurkJavaSDK</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>aws-mturk-dataschema</name>
+			<type>2</type>
+			<location>/Users/demartin/Working/Crowdsourcing/java-aws-mturk-1.2.2/build/private/sources/aws-mturk-dataschema</location>
+		</link>
+		<link>
+			<name>aws-mturk-dataschema.jar</name>
+			<type>2</type>
+			<location>/Users/demartin/Working/Crowdsourcing/java-aws-mturk-1.2.2/build/lib/aws-mturk-dataschema.jar</location>
+		</link>
+		<link>
+			<name>aws-mturk-wsdl.jar</name>
+			<type>2</type>
+			<location>/Users/demartin/Working/Crowdsourcing/java-aws-mturk-1.2.2/build/lib/aws-mturk-wsdl.jar</location>
+		</link>
+		<link>
+			<name>java-aws-mturk</name>
+			<type>2</type>
+			<location>/Users/demartin/Working/Crowdsourcing/java-aws-mturk-1.2.2/build/private/classes/java-aws-mturk</location>
+		</link>
+	</linkedResources>
+</projectDescription>
