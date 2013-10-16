@@ -1,0 +1,82 @@
+<h2>Instructions</h2>
+
+<div align="right"><a href="#questions"><small>Jump to questions</small></a></div>
+
+In this task, you will help us verify whether the links to external pages contained in Wikipedia articles are correct or not. The content of these external pages should be related to the content of the Wikipedia article. In this task, you will verify whether this is the case or not. In order to solve this task, we will provide the Wikipedia article and an external website that the article links to.<br />
+<br />
+<b>Your job:</b> Compare whether the Wikipedia article and the external website are related.<br />
+Try to <b>refresh the page</b> if the content is not displayed properly.
+<br />
+
+<h3>Example of <font color="#C92020">incorrect</font> data</h3>
+
+<p>In the following example, we are checking whether the external web pages are related to the Wikipedia article &quot;John Two-Hawks&quot;.<br />
+The following link shows a website not related to &quot;John Two-Hawks&quot;.<br />
+&nbsp;</p>
+
+<div align="center">About:
+<h2>John Two-Hawks</h2>
+</div>
+
+<br />
+<b>External page:</b><a href="http://www.cedarlakedvd.com" target="_blank">http://www.cedarlakedvd.com</a>
+
+<iframe height="200" src="http://www.cedarlakedvd.com" width="620">Page not available. Please click on the link.</iframe><br />
+<br />
+Therefore, in this example the link is <font color="#C92020">incorrect</font>.
+
+<p>&nbsp;</p>
+
+<h3>Example of <font color="#235D23">correct</font> data</h3>
+
+<p>In the following example, we are checking whether the link shows information the Wikipedia article &quot;Pandanus boninensis&quot;. The following link correctly shows pictures of this specific plant.</p>
+
+<div align="center">About:
+<h2>Pandanus boninensis</h2>
+</div>
+
+<br />
+<b>External page:</b><a href="http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Pandanus_boninensis" target="_blank"> http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Pandanus_boninensis</a>
+<br />
+<iframe height="200" src="http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Pandanus_boninensis" width="620">Page not available. Please click on the link.</iframe><br />
+<br />
+Therefore, in this example the link is <font color="#235D23">correct</font>.
+
+<p>&nbsp;</p>
+
+<p><em>End of instructions</em></p>
+
+<hr />
+<h2>&nbsp;</h2>
+
+<h2>Question</h2>
+
+<p><b>The content in &quot;External page&quot; corresponds to the topic covered in the Wikipedia article?</b></p>
+
+<p>&nbsp;</p>
+
+<div align="center">About:
+<h2>Man Therapy</h2>
+</div>
+
+<p>&nbsp;</p>
+
+<h3><a href="${s_wikipage}" target="_blank">Wikipedia article about: ${s_name}</a></h3>
+
+<p><iframe height="300" src="${s_wikipage}" width="620"></iframe></p>
+
+<p>&nbsp;</p>
+
+<h3><a href="${o}" target="_blank">External page: ${o}</a></h3>
+
+<p><iframe height="300" sandbox="allow-top-navigation allow-same-origin" src="${o}" width="620"></iframe></p>
+
+<p>Your answer:</p>
+
+<p>​<input checked="checked" name="Q1" type="radio" value="correct" /><span class="answertext">Correct</span><br />
+<input name="Q1" type="radio" value="incorrect" /><span class="answertext">Incorrect</span><br />
+<input name="Q1" type="radio" value="idk" /><span class="answertext">I cannot tell/ I don&#39;t know</span></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
