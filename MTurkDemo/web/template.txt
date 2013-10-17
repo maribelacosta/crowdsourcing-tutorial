@@ -38,7 +38,7 @@ Therefore, in this example the link is <font color="#C92020">incorrect</font>.
 <br />
 <b>External page:</b><a href="http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Pandanus_boninensis" target="_blank"> http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Pandanus_boninensis</a>
 <br />
-<iframe height="200" src="http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Pandanus_boninensis" width="620">Page not available. Please click on the link.</iframe><br />
+<iframe height="200" src="http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Pandanus_boninensis" width="620">Preview not available. Please click on the link.</iframe><br />
 <br />
 Therefore, in this example the link is <font color="#235D23">correct</font>.
 
@@ -56,7 +56,7 @@ Therefore, in this example the link is <font color="#235D23">correct</font>.
 <p>&nbsp;</p>
 
 <div align="center">About:
-<h2>Man Therapy</h2>
+<h2>${s_name}</h2>
 </div>
 
 <p>&nbsp;</p>
