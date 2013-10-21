@@ -1,0 +1,7 @@
+<experiment>
+	<rootFolder>/Users/maribelacosta/Repositories/crowdsourcing-tutorial/MTurkDemo/api_java</rootFolder>
+	<inputFile>sparql.csv</inputFile>
+	<propertyFile>myhits.properties</propertyFile>
+	<templateFile>template.xml</templateFile>
+	<configurationFile>/Users/maribelacosta/MyLibraries/aws-mturk-clt-1.3.0/bin/mturk.properties</configurationFile>
+</experiment>
